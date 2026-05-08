@@ -23,3 +23,18 @@
 terraform init
 terraform plan # Review 20+ resources to be created
 terraform apply # Type 'yes'
+
+
+#### **3. Screenshots in ReadMe — proof it worked**
+1. **Browser**: ALB DNS showing "Server 1 - Deployed with Terraform"
+2. **AWS Console → EC2**: Show 2 instances running in different AZs
+3. **Terminal**: `terraform apply` output showing "Apply complete! Resources: 20 added"
+
+#### **4..gitignore**
+Create `.gitignore`:
+
+.terraform/
+.tfstate
+.tfstate.backup
+.terraform.lock.hcl
+
