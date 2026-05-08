@@ -1,0 +1,25 @@
+
+## 🛠️ Tech Stack
+- **IaC**: Terraform v1.9+
+- **Cloud**: AWS (us-west-2)
+- **Compute**: EC2 t3.micro, Amazon Linux 2023
+- **Networking**: Custom VPC, 4 Subnets, IGW, Route Tables, NAT-less design
+- **Security**: Security Groups with port 80 ingress, DB port 3306 locked to web tier
+- **Load Balancing**: Application Load Balancer, Target Groups
+- **Automation**: User data scripts for Apache install
+
+## 📁 Files
+| File | Purpose |
+| --- | --- |
+| `providers.tf` | AWS provider + region config |
+| `vpc.tf` | VPC, subnets, IGW, route tables — Multi-AZ setup |
+| `security.tf` | Web SG + DB SG with least-privilege rules |
+| `ec2.tf` | 2x EC2 instances with Apache via user_data |
+| `alb.tf` | Application Load Balancer + target groups |
+| `outputs.tf` | Outputs ALB DNS name for browser testing |
+
+## ⚡ Deploy Instructions
+```bash
+terraform init
+terraform plan # Review 20+ resources to be created
+terraform apply # Type 'yes'
