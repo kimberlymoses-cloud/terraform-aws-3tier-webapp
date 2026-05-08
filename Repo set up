@@ -1,0 +1,4 @@
+cd terraform-3tier-aws
+git init
+git add.
+git commit -m "Initial commit: 3-tier AWS architecture with Terraform"
