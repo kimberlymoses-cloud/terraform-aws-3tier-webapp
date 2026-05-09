@@ -13,6 +13,10 @@ Deployed a highly available 3-tier web architecture on AWS using Infrastructure 
 
 [image alt](https://github.com/kimberlymoses-cloud/terraform-aws-3tier-webapp/blob/3b2843bf0b81c9cf9ae3145e1bb62464468cecfa/Install%20Teraform.png)
 
+[image alt](https://github.com/kimberlymoses-cloud/terraform-aws-3tier-webapp/blob/b62f84e83d294a844409882774b36a0f14a721b2/VPC%20with%20public%3Aprivate%20subnets%20across%202%20AZs.png)
+
+
+
 Internet
 |
 v
