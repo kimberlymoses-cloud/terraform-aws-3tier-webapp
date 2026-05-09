@@ -55,5 +55,5 @@ GitHub Actions CI/CD for
 terraform plan
 
 👩🏽‍💻 Author
-Kimberly Moses — AWS SAA in Progress | RRT → Cloud Engineer
+Kimberly Moses — AWS SAA  | RRT → Cloud Engineer
 Former Registered Respiratory Therapist combining 7+ years clinical expertise with AWS infrastructure. Building HIPAA-eligible architectures.
