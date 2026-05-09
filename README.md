@@ -25,6 +25,8 @@ Deployed a highly available 3-tier web architecture on AWS using Infrastructure 
 
 [image alt](https://github.com/kimberlymoses-cloud/terraform-aws-3tier-webapp/blob/921be4c6028ce3f4fad0fee4376ddd50a2c3bb75/Load%20balancer%20in%20front%20of%202%20servers.png)
 
+[image alt](https://github.com/kimberlymoses-cloud/terraform-aws-3tier-webapp/blob/c20602161e8a498ef72c7a1b9279ddfce5be81a8/Load%20balancer%20in%20front%20of%202%20servers.1.png)
+
 
 
 Internet
